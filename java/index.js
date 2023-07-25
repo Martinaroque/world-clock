@@ -1,6 +1,6 @@
 function updateTime() {
 
-//function updateTimeLisbon(){
+        
     let lisbonElement= document.querySelector("#lisbon")
 if (lisbonElement){
 
@@ -10,12 +10,7 @@ let lisbonTimeElement = moment();
 lisbonDate.innerHTML= lisbonTimeElement.format("dddd, Do MMMM YYYY");
 lisbonTime.innerHTML = `${lisbonTimeElement.format("h:mm:ss [<small>]A[</small>]")} `
 }
-//}
-//updateTimeLisbon();
-//setInterval(updateTimeLisbon,1000)
 
-////
-//function updateTimeParis(){
     let parisElement= document.querySelector("#paris")
     if (parisElement){
 
@@ -25,12 +20,7 @@ let parisTimeElement = moment().tz("Europe/Paris");
 parisDate.innerHTML= parisTimeElement.format("dddd, Do MMMM YYYY");
 parisTime.innerHTML = `${parisTimeElement.format("h:mm:ss [<small>]A[</small>]")} `
 }
-//}
-//updateTime();
-//setInterval(updateTime, 1000);
-////
 
-//function updateTimeNewYork(){
     let newYorkElement= document.querySelector("#new-york")
     if (newYorkElement){
 
@@ -40,12 +30,9 @@ let newYorkTimeElement = moment().tz("America/New_York");
 newYorkDate.innerHTML= newYorkTimeElement.format("dddd, Do MMMM YYYY");
 newYorkTime.innerHTML = `${newYorkTimeElement.format("h:mm:ss [<small>]A[</small>]")} `
 }
-//} 
-//updateTimeNewYork();
-//setInterval(updateTimeNewYork,1000)
+
 }
-////
-//function updateTimeSydney(){
+
     let sydneyElement= document.querySelector("#sydney")
     if (sydneyElement){
 
@@ -55,9 +42,7 @@ let sydneyTimeElement = moment().tz("Australia/Sydney");
 sydneyDate.innerHTML= sydneyTimeElement.format("dddd, Do MMMM YYYY");
 sydneyTime.innerHTML = `${sydneyTimeElement.format("h:mm:ss [<small>]A[</small>]")} `
 }
-//}
-//updateTimeSydney();
-//setInterval(updateTimeSydney,1000)
+
 
 
 function updateCity(event){
