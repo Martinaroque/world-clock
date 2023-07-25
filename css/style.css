@@ -7,11 +7,10 @@ body{
 .container {
 
     max-width: 600px;
-    margin: 0 auto;
+    margin: 60px auto;
     background: white;
     padding: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-    margin: 60px 0;
     border-radius: 10px;
 }
 select{
@@ -28,7 +27,8 @@ h1{
     font-size: 36px;
 }
 h2{
-    margin: 0;
+    margin: 0 0 5px;
+    font-size: 28px
 }
 footer{
     text-align: center;
@@ -36,6 +36,13 @@ footer{
 .city{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.city:last-child{
+
+    border: none;
 }
 .time{
 font-size: 36px;
